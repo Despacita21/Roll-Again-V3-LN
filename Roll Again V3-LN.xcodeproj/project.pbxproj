@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9082C3BB292C7AB100360BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082C3BA292C7AB100360BA3 /* AppDelegate.swift */; };
+		9082C3BD292C7AB100360BA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082C3BC292C7AB100360BA3 /* SceneDelegate.swift */; };
+		9082C3BF292C7AB100360BA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082C3BE292C7AB100360BA3 /* ViewController.swift */; };
+		9082C3C2292C7AB100360BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9082C3C0292C7AB100360BA3 /* Main.storyboard */; };
+		9082C3C4292C7AB200360BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9082C3C3292C7AB200360BA3 /* Assets.xcassets */; };
+		9082C3C7292C7AB200360BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9082C3C5292C7AB200360BA3 /* LaunchScreen.storyboard */; };
+		9082C3D2292C7AB200360BA3 /* Roll_Again_V3_LNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082C3D1292C7AB200360BA3 /* Roll_Again_V3_LNTests.swift */; };
+		9082C3DC292C7AB200360BA3 /* Roll_Again_V3_LNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082C3DB292C7AB200360BA3 /* Roll_Again_V3_LNUITests.swift */; };
+		9082C3DE292C7AB200360BA3 /* Roll_Again_V3_LNUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082C3DD292C7AB200360BA3 /* Roll_Again_V3_LNUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9082C3CE292C7AB200360BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9082C3AF292C7AB100360BA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9082C3B6292C7AB100360BA3;
+			remoteInfo = "Roll Again V3-LN";
+		};
+		9082C3D8292C7AB200360BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9082C3AF292C7AB100360BA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9082C3B6292C7AB100360BA3;
+			remoteInfo = "Roll Again V3-LN";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9082C3B7292C7AB100360BA3 /* Roll Again V3-LN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roll Again V3-LN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9082C3BA292C7AB100360BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9082C3BC292C7AB100360BA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9082C3BE292C7AB100360BA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9082C3C1292C7AB100360BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9082C3C3292C7AB200360BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9082C3C6292C7AB200360BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9082C3C8292C7AB200360BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9082C3CD292C7AB200360BA3 /* Roll Again V3-LNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roll Again V3-LNTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9082C3D1292C7AB200360BA3 /* Roll_Again_V3_LNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll_Again_V3_LNTests.swift; sourceTree = "<group>"; };
+		9082C3D7292C7AB200360BA3 /* Roll Again V3-LNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roll Again V3-LNUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9082C3DB292C7AB200360BA3 /* Roll_Again_V3_LNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll_Again_V3_LNUITests.swift; sourceTree = "<group>"; };
+		9082C3DD292C7AB200360BA3 /* Roll_Again_V3_LNUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll_Again_V3_LNUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9082C3B4292C7AB100360BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9082C3CA292C7AB200360BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9082C3D4292C7AB200360BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9082C3AE292C7AB100360BA3 = {
+			isa = PBXGroup;
+			children = (
+				9082C3B9292C7AB100360BA3 /* Roll Again V3-LN */,
+				9082C3D0292C7AB200360BA3 /* Roll Again V3-LNTests */,
+				9082C3DA292C7AB200360BA3 /* Roll Again V3-LNUITests */,
+				9082C3B8292C7AB100360BA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9082C3B8292C7AB100360BA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9082C3B7292C7AB100360BA3 /* Roll Again V3-LN.app */,
+				9082C3CD292C7AB200360BA3 /* Roll Again V3-LNTests.xctest */,
+				9082C3D7292C7AB200360BA3 /* Roll Again V3-LNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9082C3B9292C7AB100360BA3 /* Roll Again V3-LN */ = {
+			isa = PBXGroup;
+			children = (
+				9082C3BA292C7AB100360BA3 /* AppDelegate.swift */,
+				9082C3BC292C7AB100360BA3 /* SceneDelegate.swift */,
+				9082C3BE292C7AB100360BA3 /* ViewController.swift */,
+				9082C3C0292C7AB100360BA3 /* Main.storyboard */,
+				9082C3C3292C7AB200360BA3 /* Assets.xcassets */,
+				9082C3C5292C7AB200360BA3 /* LaunchScreen.storyboard */,
+				9082C3C8292C7AB200360BA3 /* Info.plist */,
+			);
+			path = "Roll Again V3-LN";
+			sourceTree = "<group>";
+		};
+		9082C3D0292C7AB200360BA3 /* Roll Again V3-LNTests */ = {
+			isa = PBXGroup;
+			children = (
+				9082C3D1292C7AB200360BA3 /* Roll_Again_V3_LNTests.swift */,
+			);
+			path = "Roll Again V3-LNTests";
+			sourceTree = "<group>";
+		};
+		9082C3DA292C7AB200360BA3 /* Roll Again V3-LNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9082C3DB292C7AB200360BA3 /* Roll_Again_V3_LNUITests.swift */,
+				9082C3DD292C7AB200360BA3 /* Roll_Again_V3_LNUITestsLaunchTests.swift */,
+			);
+			path = "Roll Again V3-LNUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9082C3B6292C7AB100360BA3 /* Roll Again V3-LN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9082C3E1292C7AB200360BA3 /* Build configuration list for PBXNativeTarget "Roll Again V3-LN" */;
+			buildPhases = (
+				9082C3B3292C7AB100360BA3 /* Sources */,
+				9082C3B4292C7AB100360BA3 /* Frameworks */,
+				9082C3B5292C7AB100360BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roll Again V3-LN";
+			productName = "Roll Again V3-LN";
+			productReference = 9082C3B7292C7AB100360BA3 /* Roll Again V3-LN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9082C3CC292C7AB200360BA3 /* Roll Again V3-LNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9082C3E4292C7AB200360BA3 /* Build configuration list for PBXNativeTarget "Roll Again V3-LNTests" */;
+			buildPhases = (
+				9082C3C9292C7AB200360BA3 /* Sources */,
+				9082C3CA292C7AB200360BA3 /* Frameworks */,
+				9082C3CB292C7AB200360BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9082C3CF292C7AB200360BA3 /* PBXTargetDependency */,
+			);
+			name = "Roll Again V3-LNTests";
+			productName = "Roll Again V3-LNTests";
+			productReference = 9082C3CD292C7AB200360BA3 /* Roll Again V3-LNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9082C3D6292C7AB200360BA3 /* Roll Again V3-LNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9082C3E7292C7AB200360BA3 /* Build configuration list for PBXNativeTarget "Roll Again V3-LNUITests" */;
+			buildPhases = (
+				9082C3D3292C7AB200360BA3 /* Sources */,
+				9082C3D4292C7AB200360BA3 /* Frameworks */,
+				9082C3D5292C7AB200360BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9082C3D9292C7AB200360BA3 /* PBXTargetDependency */,
+			);
+			name = "Roll Again V3-LNUITests";
+			productName = "Roll Again V3-LNUITests";
+			productReference = 9082C3D7292C7AB200360BA3 /* Roll Again V3-LNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9082C3AF292C7AB100360BA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9082C3B6292C7AB100360BA3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					9082C3CC292C7AB200360BA3 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9082C3B6292C7AB100360BA3;
+					};
+					9082C3D6292C7AB200360BA3 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9082C3B6292C7AB100360BA3;
+					};
+				};
+			};
+			buildConfigurationList = 9082C3B2292C7AB100360BA3 /* Build configuration list for PBXProject "Roll Again V3-LN" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9082C3AE292C7AB100360BA3;
+			productRefGroup = 9082C3B8292C7AB100360BA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9082C3B6292C7AB100360BA3 /* Roll Again V3-LN */,
+				9082C3CC292C7AB200360BA3 /* Roll Again V3-LNTests */,
+				9082C3D6292C7AB200360BA3 /* Roll Again V3-LNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9082C3B5292C7AB100360BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9082C3C7292C7AB200360BA3 /* LaunchScreen.storyboard in Resources */,
+				9082C3C4292C7AB200360BA3 /* Assets.xcassets in Resources */,
+				9082C3C2292C7AB100360BA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9082C3CB292C7AB200360BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9082C3D5292C7AB200360BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9082C3B3292C7AB100360BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9082C3BF292C7AB100360BA3 /* ViewController.swift in Sources */,
+				9082C3BB292C7AB100360BA3 /* AppDelegate.swift in Sources */,
+				9082C3BD292C7AB100360BA3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9082C3C9292C7AB200360BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9082C3D2292C7AB200360BA3 /* Roll_Again_V3_LNTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9082C3D3292C7AB200360BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9082C3DC292C7AB200360BA3 /* Roll_Again_V3_LNUITests.swift in Sources */,
+				9082C3DE292C7AB200360BA3 /* Roll_Again_V3_LNUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9082C3CF292C7AB200360BA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9082C3B6292C7AB100360BA3 /* Roll Again V3-LN */;
+			targetProxy = 9082C3CE292C7AB200360BA3 /* PBXContainerItemProxy */;
+		};
+		9082C3D9292C7AB200360BA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9082C3B6292C7AB100360BA3 /* Roll Again V3-LN */;
+			targetProxy = 9082C3D8292C7AB200360BA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9082C3C0292C7AB100360BA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9082C3C1292C7AB100360BA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9082C3C5292C7AB200360BA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9082C3C6292C7AB200360BA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9082C3DF292C7AB200360BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9082C3E0292C7AB200360BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9082C3E2292C7AB200360BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Roll Again V3-LN/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Despacita21.Roll-Again-V3-LN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9082C3E3292C7AB200360BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Roll Again V3-LN/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Despacita21.Roll-Again-V3-LN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9082C3E5292C7AB200360BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Despacita21.Roll-Again-V3-LNTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roll Again V3-LN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Roll Again V3-LN";
+			};
+			name = Debug;
+		};
+		9082C3E6292C7AB200360BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Despacita21.Roll-Again-V3-LNTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roll Again V3-LN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Roll Again V3-LN";
+			};
+			name = Release;
+		};
+		9082C3E8292C7AB200360BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Despacita21.Roll-Again-V3-LNUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Roll Again V3-LN";
+			};
+			name = Debug;
+		};
+		9082C3E9292C7AB200360BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Despacita21.Roll-Again-V3-LNUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Roll Again V3-LN";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9082C3B2292C7AB100360BA3 /* Build configuration list for PBXProject "Roll Again V3-LN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9082C3DF292C7AB200360BA3 /* Debug */,
+				9082C3E0292C7AB200360BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9082C3E1292C7AB200360BA3 /* Build configuration list for PBXNativeTarget "Roll Again V3-LN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9082C3E2292C7AB200360BA3 /* Debug */,
+				9082C3E3292C7AB200360BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9082C3E4292C7AB200360BA3 /* Build configuration list for PBXNativeTarget "Roll Again V3-LNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9082C3E5292C7AB200360BA3 /* Debug */,
+				9082C3E6292C7AB200360BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9082C3E7292C7AB200360BA3 /* Build configuration list for PBXNativeTarget "Roll Again V3-LNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9082C3E8292C7AB200360BA3 /* Debug */,
+				9082C3E9292C7AB200360BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9082C3AF292C7AB100360BA3 /* Project object */;
+}
